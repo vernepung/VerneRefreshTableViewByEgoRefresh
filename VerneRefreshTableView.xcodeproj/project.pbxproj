@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17E2ABC81AE880470007E571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABC71AE880470007E571 /* main.m */; };
+		17E2ABCB1AE880470007E571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABCA1AE880470007E571 /* AppDelegate.m */; };
+		17E2ABCE1AE880470007E571 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABCD1AE880470007E571 /* ViewController.m */; };
+		17E2ABD31AE880470007E571 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABD21AE880470007E571 /* Images.xcassets */; };
+		17E2ABE21AE880470007E571 /* VerneRefreshTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABE11AE880470007E571 /* VerneRefreshTableViewTests.m */; };
+		17E2AC041AE881EE0007E571 /* IUEGORefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABEF1AE881EE0007E571 /* IUEGORefreshTableView.m */; };
+		17E2AC051AE881EE0007E571 /* LSTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABF11AE881EE0007E571 /* LSTimeHelper.m */; };
+		17E2AC061AE881EE0007E571 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF31AE881EE0007E571 /* blackArrow.png */; };
+		17E2AC071AE881EE0007E571 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF41AE881EE0007E571 /* blackArrow@2x.png */; };
+		17E2AC081AE881EE0007E571 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF51AE881EE0007E571 /* blueArrow.png */; };
+		17E2AC091AE881EE0007E571 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF61AE881EE0007E571 /* blueArrow@2x.png */; };
+		17E2AC0A1AE881EE0007E571 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF71AE881EE0007E571 /* grayArrow.png */; };
+		17E2AC0B1AE881EE0007E571 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF81AE881EE0007E571 /* grayArrow@2x.png */; };
+		17E2AC0C1AE881EE0007E571 /* load_refresh_rotate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABF91AE881EE0007E571 /* load_refresh_rotate@2x.png */; };
+		17E2AC0D1AE881EE0007E571 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABFA1AE881EE0007E571 /* whiteArrow.png */; };
+		17E2AC0E1AE881EE0007E571 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17E2ABFB1AE881EE0007E571 /* whiteArrow@2x.png */; };
+		17E2AC0F1AE881EE0007E571 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2ABFE1AE881EE0007E571 /* CircleView.m */; };
+		17E2AC101AE881EE0007E571 /* EGORefreshTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2AC001AE881EE0007E571 /* EGORefreshTableFooterView.m */; };
+		17E2AC111AE881EE0007E571 /* EGORefreshTableFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17E2AC011AE881EE0007E571 /* EGORefreshTableFooterView.xib */; };
+		17E2AC121AE881EE0007E571 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E2AC031AE881EE0007E571 /* EGORefreshTableHeaderView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E2ABDC1AE880470007E571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E2ABBA1AE880470007E571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E2ABC11AE880470007E571;
+			remoteInfo = VerneRefreshTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E2ABC21AE880470007E571 /* VerneRefreshTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerneRefreshTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E2ABC61AE880470007E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E2ABC71AE880470007E571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17E2ABC91AE880470007E571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17E2ABCA1AE880470007E571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17E2ABCC1AE880470007E571 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17E2ABCD1AE880470007E571 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17E2ABD21AE880470007E571 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17E2ABDB1AE880470007E571 /* VerneRefreshTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerneRefreshTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E2ABE01AE880470007E571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E2ABE11AE880470007E571 /* VerneRefreshTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerneRefreshTableViewTests.m; sourceTree = "<group>"; };
+		17E2ABED1AE881EE0007E571 /* EGORefreshConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshConstant.h; sourceTree = "<group>"; };
+		17E2ABEE1AE881EE0007E571 /* IUEGORefreshTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUEGORefreshTableView.h; sourceTree = "<group>"; };
+		17E2ABEF1AE881EE0007E571 /* IUEGORefreshTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IUEGORefreshTableView.m; sourceTree = "<group>"; };
+		17E2ABF01AE881EE0007E571 /* LSTimeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTimeHelper.h; sourceTree = "<group>"; };
+		17E2ABF11AE881EE0007E571 /* LSTimeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTimeHelper.m; sourceTree = "<group>"; };
+		17E2ABF31AE881EE0007E571 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		17E2ABF41AE881EE0007E571 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		17E2ABF51AE881EE0007E571 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		17E2ABF61AE881EE0007E571 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		17E2ABF71AE881EE0007E571 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		17E2ABF81AE881EE0007E571 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		17E2ABF91AE881EE0007E571 /* load_refresh_rotate@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load_refresh_rotate@2x.png"; sourceTree = "<group>"; };
+		17E2ABFA1AE881EE0007E571 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		17E2ABFB1AE881EE0007E571 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		17E2ABFD1AE881EE0007E571 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		17E2ABFE1AE881EE0007E571 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		17E2ABFF1AE881EE0007E571 /* EGORefreshTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableFooterView.h; sourceTree = "<group>"; };
+		17E2AC001AE881EE0007E571 /* EGORefreshTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableFooterView.m; sourceTree = "<group>"; };
+		17E2AC011AE881EE0007E571 /* EGORefreshTableFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EGORefreshTableFooterView.xib; sourceTree = "<group>"; };
+		17E2AC021AE881EE0007E571 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		17E2AC031AE881EE0007E571 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E2ABBF1AE880470007E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E2ABD81AE880470007E571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17E2ABB91AE880470007E571 = {
+			isa = PBXGroup;
+			children = (
+				17E2ABC41AE880470007E571 /* VerneRefreshTableView */,
+				17E2ABDE1AE880470007E571 /* VerneRefreshTableViewTests */,
+				17E2ABC31AE880470007E571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17E2ABC31AE880470007E571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABC21AE880470007E571 /* VerneRefreshTableView.app */,
+				17E2ABDB1AE880470007E571 /* VerneRefreshTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E2ABC41AE880470007E571 /* VerneRefreshTableView */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABEB1AE881060007E571 /* Controls */,
+				17E2ABC91AE880470007E571 /* AppDelegate.h */,
+				17E2ABCA1AE880470007E571 /* AppDelegate.m */,
+				17E2ABCC1AE880470007E571 /* ViewController.h */,
+				17E2ABCD1AE880470007E571 /* ViewController.m */,
+				17E2ABD21AE880470007E571 /* Images.xcassets */,
+				17E2ABC51AE880470007E571 /* Supporting Files */,
+			);
+			path = VerneRefreshTableView;
+			sourceTree = "<group>";
+		};
+		17E2ABC51AE880470007E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABC61AE880470007E571 /* Info.plist */,
+				17E2ABC71AE880470007E571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17E2ABDE1AE880470007E571 /* VerneRefreshTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABE11AE880470007E571 /* VerneRefreshTableViewTests.m */,
+				17E2ABDF1AE880470007E571 /* Supporting Files */,
+			);
+			path = VerneRefreshTableViewTests;
+			sourceTree = "<group>";
+		};
+		17E2ABDF1AE880470007E571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABE01AE880470007E571 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17E2ABEB1AE881060007E571 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABEC1AE881EE0007E571 /* EGO */,
+			);
+			name = Controls;
+			sourceTree = "<group>";
+		};
+		17E2ABEC1AE881EE0007E571 /* EGO */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABED1AE881EE0007E571 /* EGORefreshConstant.h */,
+				17E2ABEE1AE881EE0007E571 /* IUEGORefreshTableView.h */,
+				17E2ABEF1AE881EE0007E571 /* IUEGORefreshTableView.m */,
+				17E2ABF01AE881EE0007E571 /* LSTimeHelper.h */,
+				17E2ABF11AE881EE0007E571 /* LSTimeHelper.m */,
+				17E2ABF21AE881EE0007E571 /* Resource */,
+				17E2ABFC1AE881EE0007E571 /* Source */,
+			);
+			name = EGO;
+			path = Controls/EGO;
+			sourceTree = "<group>";
+		};
+		17E2ABF21AE881EE0007E571 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABF31AE881EE0007E571 /* blackArrow.png */,
+				17E2ABF41AE881EE0007E571 /* blackArrow@2x.png */,
+				17E2ABF51AE881EE0007E571 /* blueArrow.png */,
+				17E2ABF61AE881EE0007E571 /* blueArrow@2x.png */,
+				17E2ABF71AE881EE0007E571 /* grayArrow.png */,
+				17E2ABF81AE881EE0007E571 /* grayArrow@2x.png */,
+				17E2ABF91AE881EE0007E571 /* load_refresh_rotate@2x.png */,
+				17E2ABFA1AE881EE0007E571 /* whiteArrow.png */,
+				17E2ABFB1AE881EE0007E571 /* whiteArrow@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		17E2ABFC1AE881EE0007E571 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				17E2ABFD1AE881EE0007E571 /* CircleView.h */,
+				17E2ABFE1AE881EE0007E571 /* CircleView.m */,
+				17E2ABFF1AE881EE0007E571 /* EGORefreshTableFooterView.h */,
+				17E2AC001AE881EE0007E571 /* EGORefreshTableFooterView.m */,
+				17E2AC011AE881EE0007E571 /* EGORefreshTableFooterView.xib */,
+				17E2AC021AE881EE0007E571 /* EGORefreshTableHeaderView.h */,
+				17E2AC031AE881EE0007E571 /* EGORefreshTableHeaderView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E2ABC11AE880470007E571 /* VerneRefreshTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E2ABE51AE880470007E571 /* Build configuration list for PBXNativeTarget "VerneRefreshTableView" */;
+			buildPhases = (
+				17E2ABBE1AE880470007E571 /* Sources */,
+				17E2ABBF1AE880470007E571 /* Frameworks */,
+				17E2ABC01AE880470007E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerneRefreshTableView;
+			productName = VerneRefreshTableView;
+			productReference = 17E2ABC21AE880470007E571 /* VerneRefreshTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E2ABDA1AE880470007E571 /* VerneRefreshTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E2ABE81AE880470007E571 /* Build configuration list for PBXNativeTarget "VerneRefreshTableViewTests" */;
+			buildPhases = (
+				17E2ABD71AE880470007E571 /* Sources */,
+				17E2ABD81AE880470007E571 /* Frameworks */,
+				17E2ABD91AE880470007E571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E2ABDD1AE880470007E571 /* PBXTargetDependency */,
+			);
+			name = VerneRefreshTableViewTests;
+			productName = VerneRefreshTableViewTests;
+			productReference = 17E2ABDB1AE880470007E571 /* VerneRefreshTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E2ABBA1AE880470007E571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = verne;
+				TargetAttributes = {
+					17E2ABC11AE880470007E571 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					17E2ABDA1AE880470007E571 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 17E2ABC11AE880470007E571;
+					};
+				};
+			};
+			buildConfigurationList = 17E2ABBD1AE880470007E571 /* Build configuration list for PBXProject "VerneRefreshTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E2ABB91AE880470007E571;
+			productRefGroup = 17E2ABC31AE880470007E571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E2ABC11AE880470007E571 /* VerneRefreshTableView */,
+				17E2ABDA1AE880470007E571 /* VerneRefreshTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E2ABC01AE880470007E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E2AC0A1AE881EE0007E571 /* grayArrow.png in Resources */,
+				17E2ABD31AE880470007E571 /* Images.xcassets in Resources */,
+				17E2AC0E1AE881EE0007E571 /* whiteArrow@2x.png in Resources */,
+				17E2AC061AE881EE0007E571 /* blackArrow.png in Resources */,
+				17E2AC0C1AE881EE0007E571 /* load_refresh_rotate@2x.png in Resources */,
+				17E2AC091AE881EE0007E571 /* blueArrow@2x.png in Resources */,
+				17E2AC071AE881EE0007E571 /* blackArrow@2x.png in Resources */,
+				17E2AC0B1AE881EE0007E571 /* grayArrow@2x.png in Resources */,
+				17E2AC0D1AE881EE0007E571 /* whiteArrow.png in Resources */,
+				17E2AC111AE881EE0007E571 /* EGORefreshTableFooterView.xib in Resources */,
+				17E2AC081AE881EE0007E571 /* blueArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E2ABD91AE880470007E571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E2ABBE1AE880470007E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E2ABCE1AE880470007E571 /* ViewController.m in Sources */,
+				17E2AC051AE881EE0007E571 /* LSTimeHelper.m in Sources */,
+				17E2AC101AE881EE0007E571 /* EGORefreshTableFooterView.m in Sources */,
+				17E2AC0F1AE881EE0007E571 /* CircleView.m in Sources */,
+				17E2AC121AE881EE0007E571 /* EGORefreshTableHeaderView.m in Sources */,
+				17E2AC041AE881EE0007E571 /* IUEGORefreshTableView.m in Sources */,
+				17E2ABCB1AE880470007E571 /* AppDelegate.m in Sources */,
+				17E2ABC81AE880470007E571 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E2ABD71AE880470007E571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E2ABE21AE880470007E571 /* VerneRefreshTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E2ABDD1AE880470007E571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E2ABC11AE880470007E571 /* VerneRefreshTableView */;
+			targetProxy = 17E2ABDC1AE880470007E571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17E2ABE31AE880470007E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17E2ABE41AE880470007E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E2ABE61AE880470007E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerneRefreshTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17E2ABE71AE880470007E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerneRefreshTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		17E2ABE91AE880470007E571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerneRefreshTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerneRefreshTableView.app/VerneRefreshTableView";
+			};
+			name = Debug;
+		};
+		17E2ABEA1AE880470007E571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VerneRefreshTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerneRefreshTableView.app/VerneRefreshTableView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E2ABBD1AE880470007E571 /* Build configuration list for PBXProject "VerneRefreshTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E2ABE31AE880470007E571 /* Debug */,
+				17E2ABE41AE880470007E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E2ABE51AE880470007E571 /* Build configuration list for PBXNativeTarget "VerneRefreshTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E2ABE61AE880470007E571 /* Debug */,
+				17E2ABE71AE880470007E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E2ABE81AE880470007E571 /* Build configuration list for PBXNativeTarget "VerneRefreshTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E2ABE91AE880470007E571 /* Debug */,
+				17E2ABEA1AE880470007E571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E2ABBA1AE880470007E571 /* Project object */;
+}
