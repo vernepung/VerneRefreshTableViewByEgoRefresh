@@ -1,4 +1,5 @@
 # VerneRefreshTableViewByEgoRefresh
+
 移除Ego原有的TotalRows，LoadedRows，CustomRows。
 移除PageSize。
 移除多余内部变量。
