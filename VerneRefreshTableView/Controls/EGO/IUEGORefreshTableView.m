@@ -180,6 +180,7 @@
 
 -(void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
+    NSLog(@"isheader:%zd,isfooter:%zd",_isHeadRefreshViewLoading,_isFootRefreshViewLoading);
     //  是否有外部按钮刷
     if (_isOutRefreshViewLoading)
     {
